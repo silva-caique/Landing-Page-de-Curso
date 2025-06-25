@@ -94,12 +94,67 @@ img{
   width: 40vw;
 }
 
-div{
-  width: 200px;
-  height: 200px;
-  background-color: aqua;
+.curso{
+  text-align: center;
+  margin-top: 10px;
+  font-size: 3vw;
+  font-family: "Roboto Condensed", serif;
+
+  
 }
 
+.curso:hover{
+  color: #1976d2;
+  transition-duration: 0.3s;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 20px;
+  margin-top: 12px;
+  padding-top: 20px;
+  background-color: #e6e6e6;
+  flex-wrap: wrap; 
+}
+
+
+.card {
+  background: #fff;
+  padding: 5vw;
+  width: 20vw;
+  border-radius: 20px;
+  box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.479);
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.card h3 {
+  color: #1976d2;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.card p {
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.card a {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #1976d2;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
    
 
     
